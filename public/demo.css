@@ -1,0 +1,103 @@
+body {
+  display: flex;
+}
+
+.left{
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+}
+.right{
+  font-family: "Open Sans", sans-serif;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+}
+header {
+  font-size: larger;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 700px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(102, 223, 213);
+}
+
+.leftText{
+  font-size: 28px;
+}
+
+.rightText{
+  color: rgb(76,187,187);
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 80px;
+}
+
+#logo{
+  margin-bottom:80px;
+}
+
+#googleBtn {
+  display: inline-block;
+  background: white;
+  width: 250px;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+    
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  color: #8e8e8e;
+  padding-left: 20px;
+  font-size: 18px;
+}
+    /*button design inspiration*/
+    /*https://developers.google.com/identity/sign-in/web/build-button*/
+
+@media only screen and (max-width: 768px){
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+    height: 50%;
+  }
+  .right{
+    width: 100%;
+    height: 50%;
+  }
+}
