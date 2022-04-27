@@ -1,4 +1,2 @@
-names: 
+A fitness tracker for someone to improve their excercise habits
 
-Amaan Asad Khan
-Edmond Li
