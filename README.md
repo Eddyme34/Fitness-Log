@@ -1,3 +1,5 @@
+live: https://fitness-3-edmonddavis.ecs162instruct.repl.co/
+
 A fitness tracker for someone to improve their exercise habits
 
 ![image](https://user-images.githubusercontent.com/49800956/165646797-0e1915e8-2f38-4fad-a292-9cd36fa3f9d9.png)
